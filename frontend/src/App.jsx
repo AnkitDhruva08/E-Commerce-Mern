@@ -21,6 +21,8 @@ import {useContext} from "react";
 import Context from "./Context/Context";
 import {Verify} from "./Pages/Verify";
 import {ResetPage} from "./Pages/ResetPage";
+import AddNewProduct from "./Pages/AddNewProduct";
+import UpdateProduct from "./Pages/UpdateProduct"
 
 function App() {
     const {User} = useContext(Context)
@@ -35,6 +37,9 @@ function App() {
             <Route path="AboutUs" element={<ContactUs/>}/>
             <Route path="cart" element={<Cart/>}/>
             <Route path="orders" element={<Orders/>}/>
+            <Route path="/new-products" element={<AddNewProduct/>}/>
+            <Route path="/update-product/:productId" element={<UpdateProduct/>}/>
+
             {(User.Role?.toLowerCase() === 'admin') && <Route path="/Admin" element={<Dashboard/>}/>}
             {(User.Role?.toLowerCase() === 'admin') && <Route path="/Admin/Orders" element={<AdminOrdersPage/>}/>}
             {(User.Role?.toLowerCase() === 'admin') && <Route path="/Admin/Users" element={<UsersAdminPage/>}/>}

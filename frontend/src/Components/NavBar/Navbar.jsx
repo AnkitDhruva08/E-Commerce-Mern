@@ -160,6 +160,18 @@ export default function NavBar() {
                             Products
                         </Link>
                     </NavbarItem>
+                    {/* Add New Product Button for Admin */}
+                    {User.Role === "admin" && (
+                        <NavbarItem>
+                            <Button
+                                className="navItem"
+                                color="primary"
+                                onPress={() => navigate("/new-products")}
+                            >
+                                Add New Product
+                            </Button>
+                        </NavbarItem>
+                    )}
                     <NavbarItem>
                         <Link to="/AboutUs" color="foreground" className="navItem">
                             About Us

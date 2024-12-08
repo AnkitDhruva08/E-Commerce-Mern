@@ -1,8 +1,8 @@
 // noinspection JSUnresolvedReference
 
-const Order = require("../Models/orderModel")
-const Product = require('../Models/productModel')
-const User = require("../Models/userModel")
+const Order = require("../database/orderSchema")
+const Product = require('../database/productSchema');
+const User = require("../database/userSchema");
 
 // Create new Order
 exports.newOrder = async (req, res) => {
