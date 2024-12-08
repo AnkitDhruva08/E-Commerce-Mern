@@ -104,7 +104,7 @@ function AboutDeveloper(){
             <img src={Image} height="200" width="350" style={{
                 borderRadius:"10px"
             }} alt="Developer"/>
-            <h3 className=" text-xl leading-5 font-semibold text-gray-800 lg:mt-10 mt-8 ">Ankit Kumar Shah</h3>
+            <h3 className=" text-xl leading-5 font-semibold text-gray-800 lg:mt-10 mt-8 ">Ankit Kumar Mishra</h3>
             <p className=" text-base leading-6 font-normal text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">Full Stack Developer</p>
             <a href="https://www.linkedin.com/in/ankit-kum-shah/" target="_blank" rel="noreferrer" >
                 <Button

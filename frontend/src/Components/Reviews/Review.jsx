@@ -15,28 +15,28 @@ import {EffectCoverflow, Pagination} from 'swiper/modules';
 export function Review() {
     const Reviews = [
         {
-            name: "Ankit Kumar Shah",
+            name: "Ankit Kumar Mishra",
             review: "Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!",
             heading: 'Very Easy Order',
             image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
 
         },
         {
-            name: "Ankit Kumar Shah",
+            name: "Ankit Kumar Mishra",
             review: "Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!",
             heading: 'Very Easy Order',
             image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
 
         },
         {
-            name: "Ankit Kumar Shah",
+            name: "Ankit Kumar Mishra",
             review: "Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!",
             heading: 'Very Easy Order',
             image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
 
         },
         {
-            name: "Ankit Kumar Shah",
+            name: "Ankit Kumar Mishra",
             review: "Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!",
             heading: 'Very Easy Order',
             image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
